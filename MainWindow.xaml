@@ -1,0 +1,20 @@
+﻿<Window x:Class="Love_Me.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Love_Me"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="closing_Closing">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush/>
+        </Grid.Background>
+        <Button Name="btn1" Content="同意" HorizontalAlignment="Left" Margin="168,326,0,0" VerticalAlignment="Top" Width="93" Height="42" Click="Button_Click" />
+        <Label Name="lab1" Content="表白信" HorizontalAlignment="Left" Margin="33,44,0,0" VerticalAlignment="Top" Height="59" Width="129" FontSize="36" FontStyle="Italic" />
+        <Label Name="lab2" Content="做我女朋友好吗？&#xD;&#xA;&#x9;" HorizontalAlignment="Left" Height="60" Margin="493,200,0,0" VerticalAlignment="Top" Width="281" FontSize="36" />
+        <Button Name="btn3" Visibility="Hidden" Content="退出" HorizontalAlignment="Left" Height="42" Margin="326,326,0,0" VerticalAlignment="Top" Width=" 90" Click="Button_Click_1" />
+        <Image Margin="206,10,316.6,109" Source="resource/bg.jpg" Stretch="Uniform" />
+        <Button Name="btn2" Content="不同意" HorizontalAlignment="Left" Margin="493,326,0,0" VerticalAlignment="Top" Width="93" Height="42" MouseEnter="Button_MouseEnter" />
+    </Grid>
+</Window>
